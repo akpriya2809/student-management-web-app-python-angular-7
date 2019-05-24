@@ -1,0 +1,26 @@
+.listtable{
+padding-left:9%;
+}
+table{
+    width:80%;
+
+}
+.colhead{
+    font-weight: bold;
+
+}
+.createRow{
+    padding-top:10%;
+    padding-bottom:10%;
+}
+a{
+    color:blue;
+}
+a.linkdel{
+    color:red;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,20 @@
+.listtable{
+    padding-left:2%;
+}
+.btn_create{
+    border-radius:2%;
+    width:10%;
+    padding: 10px;
+    background-color: #004fff7a;
+    margin-left:2%;
+}
+.colhead{
+    font-weight: bold;
+
+}
+table{
+    width:60%;
+    margin-left:30%;
+    border:1px solid #b0b0b0;
+
+}

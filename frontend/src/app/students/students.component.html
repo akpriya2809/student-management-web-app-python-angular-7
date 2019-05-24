@@ -1,0 +1,21 @@
+<h3> List of students:</h3>
+
+<div>
+        <table class = "listtable">
+            <tbody>
+            <tr class = "header">
+              <td class ="colhead"> Student ID</td>
+              <td class ="colhead"> Firstname</td>
+              <td class ="colhead">Lastname</td>
+              <td class ="colhead">Email</td>
+            </tr>
+            <tr *ngFor = "let stud of studentlist">
+                <td >{{stud.stud_id}}</td>
+                <td >{{stud.fname}}</td>
+                <td >{{stud.lname}}</td>
+                <td >{{stud.email}}</td>
+              </tr>
+        </tbody>
+        </table>
+      </div>
+      

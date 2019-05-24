@@ -1,0 +1,32 @@
+
+<div style="padding-left:9%;">
+    <div>
+      <div class = "rowbody top">
+        <div class = "createRow">
+          Create a New Event
+        </div>
+    </div>
+      <div class = "rowbody">
+      <div class = "createRow">
+        <input class = "createRow" type= "text" [(ngModel)]="eventt.id" placeholder="Event Serial Number"/>
+      </div>
+      <div class = "createRow">
+          <input class = "createRow"type= "text"  [(ngModel)]="eventt.title" placeholder="Event title"/>
+      </div>
+      <div class = "createRow">
+          <input class = "createRow" type= "text" [(ngModel)]="eventt.description" placeholder="Event Description"/>
+      </div>
+      <div class = "createRow">
+          <input class = "createRow" type= "text" [(ngModel)]="eventt.date" placeholder="Event Date"/>
+      </div>
+    </div>
+  
+    <div class = "bottom_btns">
+        <span class = "btn_create"><span routerLink="/events">Back</span></span>
+  
+        <span class = "btn_create save"><span (click)= save(eventt)> Save </span></span>
+    </div>
+    
+    </div>
+  </div>
+  

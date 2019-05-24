@@ -1,0 +1,13 @@
+.head {
+    background-color: #e0e0e0;
+}
+.list_secion{
+    padding-left: 1%;
+    background-color: aliceblue;
+}
+.btn_create{
+    border-radius:2%;
+    width:10%;
+    padding: 10px;
+    background-color: #004fff7a;
+}

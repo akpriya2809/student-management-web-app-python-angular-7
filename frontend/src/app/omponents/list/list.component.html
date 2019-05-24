@@ -1,0 +1,24 @@
+<div>
+  
+  <table class = "listtable">
+      <tbody>
+      <tr class = "header">
+      <td class ="colhead"> Title</td>
+      <td class ="colhead"> AssignedTo</td>
+      <td class ="colhead">Severity</td>
+      <td class ="colhead">Status</td>
+      <td class = "blank"></td>
+      <td class ="colhead"></td>
+      <td class = "blank"></td>
+    </tr>
+    <tr *ngFor = "let task of taskslist">
+      <td >{{task.title}}</td>
+      <td >{{task.assignedTo}}</td>
+      <td >{{task.severity}}</td>
+      <td > {{task.status}}</td>
+      <td [routerLink]="['/edit', task.id]"> <a>Edit</a></td>
+      <td > <a class = "linkdel" (click)= handleDelete(task)> Delete</a></td>
+    </tr>
+  </tbody>
+  </table>
+</div>

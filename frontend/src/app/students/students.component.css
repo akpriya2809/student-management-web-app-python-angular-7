@@ -1,0 +1,18 @@
+.listtable{
+    padding-left:9%;
+    
+    }
+    table{
+        width:60%;
+        margin-left:30%;
+        border:1px solid #b0b0b0;
+    }
+    .colhead{
+        font-weight: bold;
+    
+    }
+    .createRow{
+        padding-top:10%;
+        padding-bottom:10%;
+    }
+   

@@ -1,0 +1,19 @@
+<div routerLink="/create" class="evt_create">
+  Create New Event
+</div>
+<div  >
+  <table class = "listtable">
+      <tbody>
+      <tr class = "header">
+        <td class ="colhead"> EventId</td>
+        <td class ="colhead"> Event</td>
+        <td class ="colhead">Date</td>
+      </tr>
+      <tr *ngFor = "let event of eventslist">
+          <td >{{event.id}}</td>
+          <td >{{event.title}}</td>
+          <td >{{event.date}}</td>
+        </tr>
+  </tbody>
+  </table>
+</div>

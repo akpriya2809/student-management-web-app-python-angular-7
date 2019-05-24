@@ -1,0 +1,30 @@
+<div style="padding-left:9%;">
+  <div>
+    <div class = "rowbody top">
+      <div class = "createRow">
+        Create a New Issue
+      </div>
+  </div>
+    <div class = "rowbody">
+    <div class = "createRow">
+      <input class = "createRow" type= "text"  [(ngModel)]="task.title" placeholder="Issue Title"/>
+    </div>
+    <div class = "createRow">
+        <input class = "createRow"type= "text" [(ngModel)]="task.assignedTo" placeholder="Assigned To"/>
+    </div>
+    <div class = "createRow">
+        <input class = "createRow" type= "text" [(ngModel)]="task.severity" placeholder="Severity"/>
+    </div>
+    <div class = "createRow">
+        <input class = "createRow" type= "text" [(ngModel)]="task.status" placeholder="Status"/>
+    </div>
+  </div>
+
+  <div class = "bottom_btns">
+      <span class = "btn_create"><span routerLink="/list">Back</span></span>
+
+      <span class = "btn_create save"><span (click)="handleSave(task)"> Save </span></span>
+  </div>
+  
+  </div>
+</div>
